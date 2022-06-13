@@ -10,9 +10,9 @@ import { useNavigate, useLocation } from 'react-router-dom';
 import {MenuOutlined} from '@ant-design/icons';
 import { useWindowWidth } from '../../CustomHooks/useWindowWidth';
 import { fetchCategories } from '../Home/HomeAction';
+import HeaderLogo from '../../static/images/logo_2x.png';
 
 
-const HeaderLogo = "https://sandipguchait.github.io/static/images/logo_2x.png";
 const Header = () => {
 
     const [drawerMenu, setDrawermenu] = useState(false);
